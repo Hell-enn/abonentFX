@@ -10,4 +10,6 @@ module com.company.abonentfx {
     opens com.company.abonentfx.controller to javafx.fxml;
     exports com.company.abonentfx.repository.constants;
     opens com.company.abonentfx.repository.constants to javafx.fxml;
+    exports com.company.abonentfx.repository;
+    opens com.company.abonentfx.repository to javafx.fxml;
 }
